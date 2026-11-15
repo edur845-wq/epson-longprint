@@ -1,0 +1,21 @@
+EPSON LONGPRINT — PACOTE PWA
+
+Este pacote prepara o protótipo para ser instalado no Android como um app
+(PWA), abrindo em tela própria, sem a barra normal do Chrome.
+
+IMPORTANTE:
+- Não é um APK nativo.
+- Para aparecer "Instalar app", os arquivos precisam estar publicados em um
+  endereço HTTPS. Abrir index.html diretamente da pasta Downloads não basta.
+- Depois de publicar, abra o endereço no Chrome Android, toque no menu ⋮ e
+  escolha "Instalar app" ou "Adicionar à tela inicial".
+- O app continuará usando o motor do navegador Android por baixo dos panos.
+- A integração direta com a Epson e a compatibilidade real com papel longo
+  ainda precisam ser desenvolvidas e testadas.
+
+Arquivos:
+index.html            Aplicativo
+manifest.webmanifest  Configuração de instalação
+sw.js                 Cache para uso offline após a primeira visita
+icon-192.png          Ícone
+icon-512.png          Ícone
